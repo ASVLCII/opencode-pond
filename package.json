@@ -1,0 +1,12 @@
+{
+  "name": "opencode-pond",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Animated block and ASCII koi behind the OpenCode terminal interface",
+  "repository": { "type": "git", "url": "https://github.com/ASVLCII/opencode-pond.git" },
+  "type": "module",
+  "exports": { "./tui": "./src/tui.ts" },
+  "scripts": { "test": "bun test", "check": "tsc --noEmit" },
+  "dependencies": { "@opencode/plugin": "2.1.4" },
+  "devDependencies": { "@opentui/core": "0.6.8", "@opentui/solid": "0.6.8", "solid-js": "1.9.12", "typescript": "^5.9.0", "@types/bun": "latest" }
+}
