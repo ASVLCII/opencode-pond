@@ -4,10 +4,11 @@ Animated koi behind your OpenCode terminal. They swim across the home screen and
 conversations, passing beneath the logo and message text while the native input
 and panels stay readable.
 
-![Koi swimming in the terminal renderer](docs/pond.gif)
+[![Recorded OpenCode Pond demo](docs/pond.gif)](docs/demo.mp4)
 
-The preview comes from the plugin's actual terminal renderer, with the host UI
-hidden to show the fish. It is not an image-generated mockup.
+[Watch the full-resolution demo (MP4)](docs/demo.mp4).
+Recorded in OpenCode on Windows, showing the pond on the home screen and behind
+a conversation. The README preview loops; the video is silent.
 
 ## Features
 
